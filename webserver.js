@@ -121,7 +121,7 @@ app.post("/booking", async (req, res) => {
 });
 
 
-// API to view all bookings
+// API to view all rooms with booking
 app.get("/viewbooking", (req, res) => {
   const allBooking = bookings.map((booking) => {
     const room = rooms.find((room) => room.roomId === booking.roomId);
@@ -142,7 +142,7 @@ app.get("/viewbooking", (req, res) => {
 });
 
 
-// API to view all customers
+// API to view all customers with booked data
 app.get("/customers", (req, res) => {
   const allCustomers = bookings.map((customer) => {
     return {
