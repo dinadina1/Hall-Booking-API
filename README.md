@@ -1,7 +1,8 @@
 # Hall Booking API
 The Hall Booking API allows users to manage the booking of halls for events or gatherings.
 <p>It's developed using by NodeJs, ExpressJs.</p>
-<br><br>
+<p>API Documentation : https://documenter.getpostman.com/view/33767617/2sA3BobXek</p>
+<br>
 Base URL : https://hall-booking-api-cyeo.onrender.com
 <br><br>
  It provides endpoints to:
